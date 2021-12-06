@@ -25,7 +25,7 @@ def import_oxiod_dataset(type_flag = 2, useMagnetometer = True, useStepCounter =
     default_GT_channels = ['Timestamp','Header','Pose_X','Pose_Y','Pose_Z','Rot_X','Rot_Y','Rot_Z','Rot_W']
     wanted_GT_channels = ['Pose_X','Pose_Y','Pose_Z']
     if(type_flag == 1): #full training set (including validation)
-        type_file = 'Train (copy).txt'
+        type_file = 'Train_Valid.txt'
     elif(type_flag==2): #training set
         type_file = 'Train.txt'
     elif(type_flag==3): #validation set
