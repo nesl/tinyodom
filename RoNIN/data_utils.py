@@ -176,7 +176,7 @@ def import_ronin_dataset(type_flag = 0, useMagnetometer = True, useStepCounter =
     #returns 1. training set from IMU 2. ground truth displacements 3. ground truth heading rates 4. ground truth position
     # 5. list of initial x positions 6. list of initial y positions 7. size of each file in windowed form
     # 8. ground truth x velocity 9. ground truth y velocity 10. heading rate in terms of sin 11. heading rate in terms of cos
-    # 12. unwindowed training set from   
+    # 12. unwindowed training set   
     
     return  X, Y_disp, Y_head, Y_pos, x0_list, y0_list, size_of_each, x_vel, y_vel, head_s, head_c, X_orig
 
