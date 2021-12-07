@@ -10,7 +10,7 @@ Deep inertial sequence learning has shown promising odometric resolution over mo
 
 There are seven folders in TinyOdom:
 - ```OxIOD```, ```RoNIN```,  ```AQUALOC```, ```Gundog```, and ```EuRoC MAV``` contain dataset import, model training, NAS, model evaluation and deployment code for pedestrian dead reckoning, UUV localization, animal tracking, and UAV localization for the specific datasets mentioned. We provide Jupyter notebooks for easier prototyping of odometry models. The notebooks have sufficient comments for the user.
-- Each notebook in the TinyOdom folder is generally divided into the following parts: 1. Data import (training, validation, test) 2. Training and NAS 3. Training the best model 4. Evaluation of best model on test set and sample plots 5. Deployment on real-hardware.
+- Each notebook is generally divided into the following parts: 1. Data import (training, validation, test) 2. Training and NAS 3. Training the best model 4. Evaluation of best model on test set and sample plots 5. Deployment on real-hardware.
 - ```tinyodom_tcn``` has actual Tensorflow Lite Micro style C++ code that can be run on Mbed-enabled boards. You must place it in your home directory in the Mbed programs folder (e.g., ```home/nesl/Mbed Programs/tinyodom_tcn```) if you want to run HIL NAS. Refer to the TFLM guide to understand how main.cpp works: https://www.tensorflow.org/lite/microcontrollers
 - ```robust_depth_filter``` has prototyping and deployment code for the barometric g-h filter.
 
