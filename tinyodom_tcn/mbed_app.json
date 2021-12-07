@@ -1,0 +1,19 @@
+{
+    "target_overrides":{
+	"*" : {
+		"target.printf_lib": "std"
+	}
+    },
+    "config": {
+	"main-stack-size": {
+            "value": 65536
+	}
+    },
+    "requires": ["bare-metal"]
+    ,"macros": [
+        "CMSIS_NN",
+        "MBED",
+        "TF_LITE_DISABLE_X86_NEON",
+        "TF_LITE_STATIC_MEMORY"
+    ]
+}
