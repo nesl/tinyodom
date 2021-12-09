@@ -13,6 +13,7 @@ There are seven folders in TinyOdom:
 - Each notebook is generally divided into the following parts: 1. Data import (training, validation, test) 2. Training and NAS 3. Training the best model 4. Evaluation of best model on test set and sample plots 5. Deployment on real-hardware.
 - ```tinyodom_tcn``` has actual Tensorflow Lite Micro style C++ code that can be run on Mbed-enabled boards. You must place it in your home directory in the Mbed programs folder (e.g., ```home/nesl/Mbed Programs/tinyodom_tcn```) if you want to run HIL NAS. Refer to the TFLM guide to understand how main.cpp works: https://www.tensorflow.org/lite/microcontrollers
 - ```robust_depth_filter``` has prototyping and deployment code for the barometric g-h filter.
+- - The scripts are written to be trained on GPU. If you do not have GPU, first comment this line in each notebook: ```os.environ["CUDA_DEVICE_ORDER"] = "PCI_BUS_ID"```, then change the next line as follows: ```os.environ["CUDA_VISIBLE_DEVICES"]="-1"``
 
 ## Required items 
 - A GPU Workstation running Ubuntu 20.04.
