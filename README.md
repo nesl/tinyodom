@@ -20,7 +20,7 @@ There are seven folders in TinyOdom:
 - Python 3.8+ must be installed, preferably through Anaconda or Virtualenv, https://docs.conda.io/en/latest/, https://virtualenv.pypa.io/en/latest/
 - Python package requirements are listed in ```requirements.txt```. Please install them before running the Python scripts. Note that Tensorflow 2.5.0 is a must for working with the TinyML model scripts. Tensorflow 1.x would not work.
 - Couple of STM32 Nucleo Boards (must be Mbed enabled) for hardware-in-the-loop NAS, https://www.st.com/en/evaluation-tools/stm32-nucleo-boards.html, https://os.mbed.com/platforms/
-- Arduino IDE, https://www.arduino.cc/en/software/
+- Mbed Studio, https://os.mbed.com/studio/
 - C/C++ for compiler Mbed CLI and conversion of TinyML models to C (your computer will generally come with one).
 - GNU ARM Embedded Toolchain (for Mbed CLI), https://developer.arm.com/tools-and-software/open-source-software/developer-tools/gnu-toolchain/gnu-rm
 
