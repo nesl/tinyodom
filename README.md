@@ -32,7 +32,7 @@ There are seven folders in TinyOdom:
 ## Citation
 Please cite this as:
 
-Swapnil Sayan Saha, Sandeep Singh Sandha, Luis A. Garcia, and Mani Srivastava. 2 (2022) "TinyOdom: Hardware-Aware Efficient Neural Inertial Navigation". Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (2022): 1-32 (accepted).
+Swapnil Sayan Saha, Sandeep Singh Sandha, Luis A. Garcia, and Mani Srivastava. (2022) "TinyOdom: Hardware-Aware Efficient Neural Inertial Navigation". Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (2022): 1-32 (accepted).
 
 ## Acknowledgements
 We thank the Structures-Computer Interaction Laboratory at the University of California - Los Angeles for providing us with their agricultural robot to perform real-world evaluation of our framework. We also thank Jason Wu from the Networked and Embedded Systems Laboratory at the University of California - Los Angeles for aiding us in the data collection phase during the real-world setup.
