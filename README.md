@@ -27,9 +27,11 @@ There are seven folders in TinyOdom:
 ## Citation
 Please cite this as:
 
-Saha S.S., Sandha S.S., Garcia L., Srivastava M. (2021) "TinyOdom: Hardware-Aware Efficient Neural Inertial Navigation". (Under Review) Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (2021): 1-28.
+Swapnil Sayan Saha, Sandeep Singh Sandha, Luis A. Garcia, and Mani Srivastava. 2 (2022) "TinyOdom: Hardware-Aware Efficient Neural Inertial Navigation". Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (2022): 1-32 (accepted).
 
 ## Acknowledgements
+We thank the Structures-Computer Interaction Laboratory at the University of California - Los Angeles for providing us with their agricultural robot to perform real-world evaluation of our framework. We also thank Jason Wu from the Networked and Embedded Systems Laboratory at the University of California - Los Angeles for aiding us in the data collection phase during the real-world setup.
+
 The research reported in this paper was sponsored in part by: the CONIX Research Center, one of six centers in JUMP, a Semiconductor Research Corporation (SRC) program sponsored by DARPA; by the IoBT REIGN Collaborative Research Alliance funded by the Army Research Laboratory (ARL) under Cooperative Agreement W911NF-17-2-0196; by the NIH mHealth Center for Discovery, Optimization and Translation of Temporally-Precise Interventions (mDOT) under award 1P41EB028242; by the National Science Foundation (NSF) under awards \# OAC-1640813 and CNS-1822935; and, by and the King Abdullah University of Science and Technology (KAUST) through its Sensor Innovation research program. The views and conclusions contained in this document are those of the authors and should not be interpreted as representing the official policies, either expressed or implied, of the ARL, DARPA, KAUST, NIH, NSF, SRC, or the U.S. Government. The U.S. Government is authorized to reproduce and distribute reprints for Government purposes notwithstanding any copyright notation here on.
 
 
