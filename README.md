@@ -4,7 +4,7 @@
 ![overview](tinyodom_framework.png)
 
 ## Paper
-Preprint (accepted): https://www.researchgate.net/publication/360075622_TinyOdom_Hardware-Aware_Efficient_Neural_Inertial_Navigation
+https://dl.acm.org/doi/10.1145/3534594 
 
 ## Summary
 Deep inertial sequence learning has shown promising odometric resolution over model-based approaches for trajectory estimation in GPS-denied environments. However, existing neural inertial dead-reckoning frameworks are not suitable for real-time deployment on ultra-resource-constrained (URC) devices due to substantial memory, power, and compute bounds. Current deep inertial odometry techniques also suffer from gravity pollution, high-frequency inertial disturbances, varying sensor orientation, heading rate singularity, and failure in altitude estimation. In this paper, we introduce TinyOdom, a framework for training and deploying neural inertial models on URC hardware. TinyOdom exploits hardware and quantization-aware Bayesian neural architecture search (NAS) and a temporal convolutional network (TCN) backbone to train lightweight models targetted towards URC devices. In addition, we propose a magnetometer, physics, and velocity-centric sequence learning formulation robust to preceding inertial perturbations. We also expand 2D sequence learning to 3D using a model-free barometric g-h filter robust to inertial and environmental variations. We evaluate TinyOdom for a wide spectrum of inertial odometry applications and target hardware against competing methods. Specifically, we consider four applications: pedestrian, animal, aerial, and underwater vehicle dead-reckoning. Across different applications, TinyOdom reduces the size of neural inertial models by 31x to 134x with 2.5m to 12m error in 60 seconds, enabling the direct deployment of models on URC devices while still maintaining or exceeding the localization resolution over the state-of-the-art. The proposed barometric filter tracks altitude within ±0.1m and is robust to inertial disturbances and ambient dynamics. Finally, our ablation study shows that the introduced magnetometer, physics, and velocity-centric sequence learning formulation significantly improve localization performance even with notably lightweight models.
@@ -32,7 +32,7 @@ There are seven folders in TinyOdom:
 ## Citation
 Please cite this as:
 
-Swapnil Sayan Saha, Sandeep Singh Sandha, Luis A. Garcia, and Mani Srivastava. (2022) "TinyOdom: Hardware-Aware Efficient Neural Inertial Navigation". Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (2022): 1-32 (accepted).
+Swapnil Sayan Saha, Sandeep Singh Sandha, Luis Antonio Garcia, and Mani Srivastava. 2022. TinyOdom: Hardware-Aware Efficient Neural Inertial Navigation. Proc. ACM Interact. Mob. Wearable Ubiquitous Technol. 6, 2, Article 71 (July 2022), 32 pages.
 
 ## Acknowledgements
 We thank the Structures-Computer Interaction Laboratory at the University of California - Los Angeles for providing us with their agricultural robot to perform real-world evaluation of our framework. We also thank Jason Wu from the Networked and Embedded Systems Laboratory at the University of California - Los Angeles for aiding us in the data collection phase during the real-world setup.
