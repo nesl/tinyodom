@@ -28,6 +28,7 @@ There are seven folders in TinyOdom:
 - Mbed Studio, https://os.mbed.com/studio/
 - C/C++ for compiler Mbed CLI and conversion of TinyML models to C (your computer will generally come with one).
 - GNU ARM Embedded Toolchain (for Mbed CLI), https://developer.arm.com/tools-and-software/open-source-software/developer-tools/gnu-toolchain/gnu-rm
+- **N.B.** When you install the pydometer package, go to the ```__init__.py``` file in your Python environment (e.g., if you are using Conda, the file will be somewhere like this: ```anaconda3/envs/ENV_NAME/lib/python3.8/site-packages/pydometer```). Replace the following line: ```self.data = pd.DataFrame([gx, gy, gz], columns=['gx', 'gy', 'gz'])``` with ```self.data = pd.DataFrame(np.concatenate((gx.reshape(gx.shape[0],1),gy.reshape(gy.shape[0],1),gz.reshape(gz.shape[0],1)),axis=1), columns=['gx','gy','gz'])```
 
 ## Citation
 Please cite this as:
